@@ -58,6 +58,9 @@ import anime5 from './assets/anime/anime (5).png';
 import anime6 from './assets/anime/anime (6).png';
 import anime7 from './assets/anime/anime (7).png';
 import anime8 from './assets/anime/anime (8).png';
+import anime9 from './assets/anime/10b5e544-28dd-4974-9a6c-1c31bc7748cc.jfif';
+import anime10 from './assets/anime/274523f1-5e17-4a5a-b834-6de393071e41.png';
+import anime11 from './assets/anime/49fb6c90-3d5e-49b3-b115-170916028ec3.jfif';
 
 
 type SelectAvatarComponentProps = {
@@ -93,7 +96,7 @@ const SelectAvatarComponent: React.FC<SelectAvatarComponentProps> = ({
   
   // ];
   // const images =  [a, b, two, three, four, five,six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fiveteen, sixteen]
-  const images = [anime1, anime2, anime3, anime4, anime5, anime6, anime7, anime8]
+  const images = [anime1, anime2, anime3, anime4, anime5, anime6, anime7, anime8, anime9, anime10, anime11]
   const [selected, setSelected] = useState(images[0]);
   const [clicked, setClicked] = useState(false);
 

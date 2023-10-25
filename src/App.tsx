@@ -125,7 +125,7 @@ const handleFileUpload = (e: any) => {
     <div className="h-screen w-full flex justify-center items-center flex-col p-2 ">
      <img
     // src="https://res.cloudinary.com/dxjk4gnrw/image/upload/v1696646110/Elite_Logo_cqclxt.png"
-    src="https://res.cloudinary.com/dxjk4gnrw/image/upload/v1696912452/Kotak_S_logo_02_1_anqfab.png"
+    src="https://www.gokapture.com/img/gokapture/favicon.png"
     alt="Logo"
     style={{ width: '250px' }}
 />
