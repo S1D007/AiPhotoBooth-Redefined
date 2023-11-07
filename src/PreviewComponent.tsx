@@ -16,7 +16,7 @@ useEffect(() => {
         console.log(formData.get("target_image"));
         console.log(formData.get("input_image"));
 
-        const response = await axios.post("https://3.109.181.36.nip.io/face-swap", formData);
+        const response = await axios.post("https://13.233.111.139.nip.io/face-swap", formData);
 
         setImage(response.data.image);
         // Clear the formData after the request
